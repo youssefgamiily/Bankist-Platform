@@ -1,0 +1,261 @@
+#OnSignIn {
+  display: none;
+}
+
+body {
+  /* background-color: #f3f3f3; */
+  background-color: #679cd5;
+}
+
+input {
+  background-color: #679cd5;
+}
+
+.Navbar {
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  position: relative;
+  left: 120px;
+}
+
+p {
+  font: bold;
+  position: relative;
+  right: 450px;
+  /* margin-left: 100px; */
+  /* margin-right: 500px; */
+}
+
+input {
+  height: 30px;
+  border-color: inherit;
+  border: 1px;
+  border-radius: 15px;
+  outline: none;
+}
+.login_form {
+  display: flex;
+  align-items: baseline;
+  position: relative;
+  left: 450px;
+}
+
+.pw {
+  margin-top: 07px;
+}
+
+#password {
+  margin-left: 15px;
+}
+
+.Submit {
+  border: none;
+  color: inherit; /* new for me*/
+  background: none;
+  margin-top: 19px;
+  font-size: 2.2rem; /* new for me*/
+  cursor: pointer; /* new for me*/
+  margin-left: 25px;
+}
+
+.transactions {
+  border: 1px solid black;
+  padding: 5px;
+  display: grid;
+  grid-row-gap: 30px;
+  align-items: center;
+  overflow: scroll;
+  width: 700px;
+  height: 400px;
+}
+
+#odd {
+  background-color: #82d567;
+}
+
+#even {
+  background-color: #d56782;
+}
+
+.transaction {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 97%;
+  background-color: #d56782;
+  border-radius: 30px;
+}
+
+.transaction .Index_Type {
+  display: flex;
+  align-items: center;
+  top: 34px;
+  justify-content: center;
+  height: 80%;
+  background-color: #82d567;
+  border-radius: 20px;
+  margin-left: -10px;
+  margin-bottom: 20px;
+  width: 100px;
+}
+
+.transaction .Value {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* margin-left: 500px; */
+  height: 68px;
+  width: 45px;
+}
+
+.transaction h4 {
+  width: 70px;
+  font-size: small;
+  height: 40%;
+}
+
+.TransferMoneyWrapper {
+  margin-left: 30px;
+  border-radius: 20px;
+  background-color: #82d567;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.Wrapper {
+  margin-top: 20px;
+  margin-left: 30px;
+  border-radius: 20px;
+  background-color: #82d567;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#CloseAccountBtn {
+  position: relative;
+  right: 40px;
+  bottom: 28px;
+}
+
+.Wrapper .CloseAcc {
+  display: flex;
+  padding: 15px;
+}
+
+.Wrapper .CloseAcc form {
+  margin-right: 15px;
+  margin-bottom: 15px;
+}
+
+#RequestLoanWrapper {
+  padding: 15px;
+}
+
+#TransferMoneyBtn {
+  position: relative;
+  bottom: 15px;
+  right: 25px;
+}
+
+.RequestLoan {
+  display: flex;
+  align-items: center;
+}
+
+#RequestLoanBtn {
+  position: relative;
+  bottom: 12px;
+  right: 15px;
+}
+
+.TransferMoney {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+}
+
+.TransferMoney label {
+  padding: 15px;
+}
+
+.TransferMoneyWrapper {
+  padding: 15px;
+}
+
+#main {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.balanceWrap {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  border-radius: 20px;
+  background-color: #d56782;
+  margin-bottom: 20px;
+}
+
+.balanceWrap .balance {
+  margin-left: 1200px;
+}
+
+.balanceWrap .CurrBalance {
+  margin-left: 30px;
+}
+
+#BalanceVal {
+  margin-top: 30px;
+  font-size: xx-large;
+}
+
+#summary {
+  border-radius: 20px;
+  background-color: #d56782;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+#summary button {
+  background-color: #d56782;
+  border: 0px;
+  display: flex;
+  align-items: center;
+}
+
+#cashIn-div {
+  display: flex;
+  justify-content: space-around;
+}
+
+#cashIn-div .AmountIn {
+  margin-left: 10px;
+}
+
+#cashOut-div {
+  display: flex;
+}
+
+#interest-div {
+  width: 250px;
+  display: flex;
+  justify-content: space-around;
+}
+
+#cashOut-div .AmountOut {
+  margin-left: 10px;
+}

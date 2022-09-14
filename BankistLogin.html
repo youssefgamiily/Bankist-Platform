@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <meta charset="UTF-8" />
+  <title>Bankist App</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <link rel="stylesheet" href="BankistUI.css" />
+  <script src="BankistLogin.js"></script>
+  <body>
+    <div class="Navbar">
+      <p>Log in to get started</p>
+      <img src="logo.png " alt="bankist logo" class="logo" />
+      <form class="login_form">
+        <div>
+          <!-- <label for="username">Username</label> -->
+          <input name="username" id="username" placeholder="Username" />
+        </div>
+        <div class="pw">
+          <!-- <label for="password">Password</label> -->
+          <input name="password" id="password" placeholder="Password" />
+        </div>
+        <button class="Submit">&rarr;</button>
+      </form>
+    </div>
+
+    <section id="OnSignIn">
+      <div class="balanceWrap">
+        <div class="CurrBalance">
+          <h1>Current balance</h1>
+          <h3 id="dateTod">As of 03/08/2022</h3>
+        </div>
+        <div class="balance"><h1 id="BalanceVal">25 952,59 €</h1></div>
+      </div>
+      <main id="main">
+        <div>
+          <h1> Transactions: </h1>
+          <div class="transactions">
+          </div>
+        </div>
+
+          <div id="FunctionsWrapper">
+            <div class="TransferMoneyWrapper">
+              <h1>Transfer Money</h1>
+              <div class="TransferMoney">
+                <form>
+                  <label>Transfer to</label>
+                  <input type="text" id="TransferTo"></input> 
+                </form>
+                <form>
+                  <label>Amount</label>
+                  <input type="text" id="Amount"></input> 
+                </form>
+                <button class="Submit" id="TransferMoneyBtn">&rarr;</button>
+              </div>
+            </div>
+            <div id="RequestLoanWrapper" class="Wrapper">
+              <h1>Request Loan</h1>
+              <div class="RequestLoan">
+                <form>
+                  <label>Amount</label>
+                  <input type="text"></input> 
+                </form>
+                <button class="Submit" id="RequestLoanBtn">&rarr;</button>
+              </div>
+            </div>
+            <div class="Wrapper">
+              <h1>Close Account</h1>
+              <div class="CloseAcc">
+                <form>
+                  <label >Confirm Username</label>
+                  <input type="text" id="CloseAccUsername"></input> 
+                </form>
+                <form>
+                  <label>Confirm Password</label>
+                  <input type="text" id="CloseAccPassword"></input> 
+                </form>
+                <button class="Submit" id="CloseAccountBtn">&rarr;</button>
+            </div>
+          </div>
+      </main>
+
+      <div id="summary">
+        <div id="cashIn-div">
+          <h1>IN</h1>
+          <h1 class="AmountIn">27 035,20 €</h1>
+        </div>
+        <div id="cashOut-div">
+          <h1>OUT</h1>
+          <h1 class="AmountOut">27 035,20 €</h1>
+        </div>
+        <div id="interest-div">
+          <h1>INTEREST</h1>
+          <h1 class="InterestAmount">27 035,20 €</h1>
+        </div>
+        <div id="sort-div">
+          <button>
+            <h1 class="Submit">&darr;</h1>
+            <h1>SORT</h1>
+          </button>
+          
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
